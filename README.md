@@ -16,7 +16,7 @@ Today I learned
 - I suffered from some issues with forwarding a little information when I request for some informations rendering other HTMLfile. But It is resolved by using request's library. 
   - ex 
   
-  '''python
+  ```python
     title = request.args.get('title')
     return render_template('show.html',title=title)
-    '''
+  ```
