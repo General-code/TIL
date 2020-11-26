@@ -14,7 +14,7 @@ Today I learned
   - [x] Bootstrap, CSS, and other media sources didn't exist on the webpage from my localhost flask server. And Tutor Chan Ho Lee helped me to find out the cause of that error. It was casued from the flask's folder structure. I didn't placed css code and media files in the static folder. And After I **moved them from template directory to the static file directory. Everything was clear** 
 
 - I suffered from some issues with forwarding a little information when I request for some informations rendering other HTMLfile. But It is resolved by using request's library. 
-  - ex 
+  > ex 
   
   ```python
     title = request.args.get('title')
