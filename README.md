@@ -78,7 +78,7 @@ Today I learned
       //Dtect Event Code.. 
 
     let eventThatHappened = {
-        eventType: "Keypress",
+        eventType: "keydown",
         key: "p",
         durationOfKeyPress: 2
     }
