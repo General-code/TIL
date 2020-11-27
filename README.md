@@ -67,3 +67,4 @@ Today I learned
 - **Higher order function** is a function that gets a function as an input.
 - **Callback function** is a function finished the entire process of higher order function. This is got passed into the higher order function as an input function.
 - event that triggered this callback function  pass back through the call back function
+- call back function is not triggered by us but an object experienced specific event
