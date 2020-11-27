@@ -46,7 +46,8 @@ Today I learned
 ### Javascript Object
 - You have to make many of same type object? You want to pump them out like a factory?
   - use Constructor Function 
-> like this ```javascript
+> like this 
+```javascript
           function BellyBoy(age, name , skills){
           this.age = age;
           this.name = name;
