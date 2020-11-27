@@ -48,10 +48,11 @@ Today I learned
   - use Constructor Function 
 > like this use UpeerCase at each first word not camel casing and you must use new to give it a memory space 
 ```javascript
-          function BellBoy(age, name , skills){
-          this.age = age;
-          this.name = name;
-          this.skills = skills;
+          function BellBoy(age, name, skills) {
+            this.age = age;
+            this.name = name;
+            this.skills = skills;
           }
+          
           let bellyBoy1 = new BellBoy(20, 'Pssion', ['limitless passion','speedy feet']);
  ```
