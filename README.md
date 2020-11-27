@@ -42,4 +42,15 @@ Today I learned
   
 - addEventListener(type, function) throught this code you can add function to be called when listeners listen to the specific type behavior
 - you can use debugger; in chrome developer tool
+
+### Javascript Object
+- You have to make many of same type object? You want to pump them out like a factory?
+  - use Constructor Function 
+> like this ```javascript
+          function BellyBoy(age, name , skills){
+          this.age = age;
+          this.name = name;
+          this.skills = skills;
+          }
+          ```
   
