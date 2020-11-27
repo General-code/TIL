@@ -20,3 +20,9 @@ Today I learned
     title = request.args.get('title')
     return render_template('show.html',title=title)
   ```
+
+## Javascript
+
+- When manipulating DOM Elements you can use querySelector("") and add class to the selected element writing code like this querySelector(".class").classList.add("invisible");
+- Every CSS property are camel case in javascript, So you should remove hyphen and change that property into the camel case.
+- when you change CSS sytle uisng (some element Selected by selector).style.color = "value"; all the property value in javascript should be wrapped with "" so it would be the string
