@@ -68,3 +68,6 @@ Today I learned
 - **Callback function** is a function finished the entire process of higher order function. This is got passed into the higher order function as an input function.
 - event that triggered this callback function  pass back through the call back function
 - call back function is not triggered by us but an object experienced specific event
+
+- **After the Event has happened, the event Object is constructed based on that event and then the call back function gets it as an argument.
+- so this is a call back function
