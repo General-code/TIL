@@ -42,8 +42,8 @@ Today I learned
   
 - addEventListener(type, function) throught this code you can add function to be called when listeners listen to the specific type behavior
 - you can use debugger; in chrome developer tool
-- **pass parameter to the function associated with event listener**
-- and it's also possible for the entire web page to listen(wait for) to the event.(use document)
+- We can **pass the event that trigers eventListener as a parameter to the function associated with the event listener**
+- it's also possible for the entire web page to listen(wait for) to the event.(use document)
 ```javascript
       document.addEventListener('keydown',function(event){
         console.log(event);
