@@ -70,4 +70,25 @@ Today I learned
 - call back function is not triggered by us but an object experienced specific event
 
 - **After the Event has happened, the event Object is constructed based on that event and then the call back function gets it as an argument.
-- so this is a call back function
+- and the event listener check if the type of event is same with the event listener is wating for. 
+
+```javascript
+    function anotherAddEventListener(typeOfEvent, callback) {
+
+      //Dtect Event Code.. 
+
+    let eventThatHappened = {
+        eventType: "Keypress",
+        key: "p",
+        durationOfKeyPress: 2
+    }
+
+    if (eventThatHappened.eventType === typeOfEvent) {
+      callback(EventThatHappened);
+      }
+    }
+```
+
+
+
+
