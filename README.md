@@ -42,6 +42,13 @@ Today I learned
   
 - addEventListener(type, function) throught this code you can add function to be called when listeners listen to the specific type behavior
 - you can use debugger; in chrome developer tool
+- **pass parameter to the function associated with event listener**
+- and it's also possible for the entire web page to listen(wait for) to the event.(use document)
+```javascript
+      document.addEventListener('keydown',function(event){
+        console.log(event);
+      });
+```
 
 ### Javascript Object
 - You have to make many of same type object? You want to pump them out like a factory?
