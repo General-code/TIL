@@ -40,4 +40,6 @@ Today I learned
   - change attribute .setAttribute('Attribute you are going to change', 'what you are going to change it to');
   
   
+- addEventListener(type, function) throught this code you can add function to be called when listeners listen to the specific type behavior
+- you can use debugger; in chrome developer tool
   
