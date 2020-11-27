@@ -50,7 +50,7 @@ Today I learned
       });
 ```
 
-### Javascript Object
+### Javascript Object and Functions
 - You have to make many of same type object? You want to pump them out like a factory?
   - use Constructor Function 
 > like this use UpeerCase at each first word not camel casing and you must use new to give it a memory space 
@@ -63,3 +63,6 @@ Today I learned
           
           let bellyBoy1 = new BellBoy(20, 'Pssion', ['limitless passion','speedy feet']);
  ```
+ 
+- **Higher order function** is a function that gets a function as an input.
+- **Callback function** is a function finished the entire process of higher order function. This is got passed into the higher order function as an input function.
