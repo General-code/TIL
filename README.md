@@ -46,12 +46,12 @@ Today I learned
 ### Javascript Object
 - You have to make many of same type object? You want to pump them out like a factory?
   - use Constructor Function 
-> like this 
+> like this use UpeerCase at each first word not camel casing and you must use new to give them a memory space 
 ```javascript
-          function BellyBoy(age, name , skills){
+          function BellBoy(age, name , skills){
           this.age = age;
           this.name = name;
           this.skills = skills;
           }
-          ```
-  
+          let bellyBoy1 = new BellBoy(20, 'Pssion', ['limitless passion','speedy feet']);
+ ```
