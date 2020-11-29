@@ -68,3 +68,7 @@ Today I learned
 
 
 
+### Javascript Variables Delcaration
+- **let** has block level scope
+- **var** has function level scope and can be redeclared. This should be completely avoided. It's scope level is so weird.
+- **const** used for constant variable yes It is used for immutable variable. Feature ** should be initiallized with an declaration.
