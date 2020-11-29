@@ -23,7 +23,7 @@ Today I learned
 
 ## Javascript
 
-### [Javascript DOM Manipulation](https://github.com/General-code/TIL/blob/main/Javascript%20DOM%20manipulation)
+### [Javascript DOM Manipulation](https://github.com/General-code/TIL/blob/main/Javascript%20DOM%20manipulation.md)
 
 
 ### Javascript Object and Functions
