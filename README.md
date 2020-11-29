@@ -87,3 +87,6 @@ Today I learned
   and this is multiple
   line`;
 ```
+
+- **Type conversion**
+  - Use Number() to make a string number a computable number. If the string is made of non-numeric letter then the result is going to be NaN
