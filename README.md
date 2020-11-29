@@ -91,3 +91,6 @@ Today I learned
 - **Type conversion**
   - Use Number() to make a string number a computable number. If the string is made of non-numeric letter then the result is going to be NaN
   - String() all the type conversion start off with a uppercase letter.
+- **Automatic Type coercion**
+  - Basically happens when there is a operation between diffrent data types.
+  - like number + string => string
