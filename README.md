@@ -74,7 +74,14 @@ Today I learned
 - **const** used for constant variable yes It is used for immutable variable. Feature ** should be initiallized with an declaration.
 
 ```javascript
-  
   lastName = 'Programmer'
+  //this kind of code makes globlal variable.
+
 ```
-this kind of code makes globlal variable.
+
+
+- **Template Literals** can assemble mulitiple piece of code in one string.
+```javascript
+  let nation = 'korea'
+  let temp = `My country is ${nation}`;
+```
