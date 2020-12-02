@@ -187,4 +187,4 @@ const jonas = ['jonas', 10];
 - **includes** method
   - reutun true or false
   - strict to checking the equality.
-  
+  - useful to conditional statement.
