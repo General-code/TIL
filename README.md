@@ -80,6 +80,27 @@ Today I learned
     return a - b;
    }
 ```
+- **Arrow function** is a short and special form of a function expression
+  - added from the ES6
+  - don't need curly braces so simple
+  - implicit return statement
+  - if you write multiple-line function and needs more than one parameter it would be super complex
+  - and this is different from the normal function. 
+  
+```javascript
+   const calcAge3 = birthYear => 2037 - birthYear;
+   console.log(birthYear);
+   
+   // when to write down multi-line we need curly brace again
+   // we should express return statement.
+   
+   const yearsUntilRetirement = (currentYear ,birthYear) => {
+    const age = currentYear - birthYear;
+    const retirement = 65 - age;
+    return retirement;
+    }
+```
+
 
 ### Javascript Variables Delcaration
 - **let** has block level scope
