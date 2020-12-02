@@ -1,4 +1,4 @@
-- **Return to the TIL**
+## [Return to the TIL](https://github.com/General-code/TIL)
 #### Javascript Array
 - Array declaration
 ```javascript
