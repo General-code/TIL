@@ -65,8 +65,21 @@ Today I learned
     }
 ```
 
-
-
+### Function delcaration
+- **Function declaration** allows to use the function before the declaration because of hoisting
+```javascript
+   cal(3,5);
+   function cal(a, b) {
+    return a - b;
+    }
+```
+- **Function expression** doesn't allow to use the function before the expression 
+  - **In javascript function is actually just a value** so it's possible to assign it into a variable.
+```javascript
+   const cal2 = function (a,b){
+    return a - b;
+   }
+```
 
 ### Javascript Variables Delcaration
 - **let** has block level scope
@@ -94,3 +107,4 @@ Today I learned
 - **Automatic Type coercion**
   - Basically happens when there is a operation between diffrent data types.
   - like number + string => string
+
