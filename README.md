@@ -27,6 +27,29 @@ Today I learned
 
 
 ### Javascript Object and Functions
+
+#### Javascript Object
+- we can gather the related vairables giving them names.
+```javascript
+const obj = {
+name : "kre",
+birth : 2020,
+skills : ['programming' , 'bungee jumping']
+}
+```
+- ways to access the object's values
+  - dot operation (simple, don't allow string operation)
+    - member access
+  - bracket operation (you can do many things such as string operation and using calling with the variable)
+    - useful to computed Member Access
+```javascript
+   obj.name;
+   obj.n + 'ame' // undefined
+   obj['n' + 'ame'] // 'kre'
+   let use = 'birth'
+   obj[use]
+```
+  
 - You have to make many of same type object? You want to pump them out like a factory?
   - use Constructor Function 
 > like this use UpeerCase at each first word not camel casing and you must use new to give it a memory space 
@@ -132,6 +155,10 @@ Today I learned
   - like number + string => string
   - when array becomes string with + then it concatenate every element with .(dot)
 
+- **Truthy value and Falsy value
+  - Falsy values are undefined, 0, '', null, false
+
+
 
 #### Javascript Array
 - Array declaration
@@ -160,3 +187,4 @@ const jonas = ['jonas', 10];
 - **includes** method
   - reutun true or false
   - strict to checking the equality.
+  
