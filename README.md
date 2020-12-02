@@ -131,3 +131,12 @@ Today I learned
   - Basically happens when there is a operation between diffrent data types.
   - like number + string => string
 
+
+#### Javascript Array
+- Array declaration
+```javascript
+const friends = ['kim', 'ho', 'pu']
+const years = new Array(1991, 1984, 2008, 2020);
+```
+- the rest of this is same with the other programming langues it
+- yet this has length property
