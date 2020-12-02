@@ -97,7 +97,9 @@ Today I learned
    const yearsUntilRetirement = (currentYear ,birthYear) => {
     const age = currentYear - birthYear;
     const retirement = 65 - age;
-    return retirement;
+    if (retirement > 0)
+      return retirement;
+    else return -1;
     }
 ```
 
