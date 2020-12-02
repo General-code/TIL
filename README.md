@@ -73,7 +73,7 @@ Today I learned
     return a - b;
     }
 ```
-- **Function expression** doesn't allow to use the function before the expression 
+- **Function expression** doesn't allow to use the function before the initialization. (This is also hoisted but I will talke the principle of hoisting and TDM later)
   - **In javascript function is actually just a value** so it's possible to assign it into a variable.
 ```javascript
    const cal2 = function (a,b){
