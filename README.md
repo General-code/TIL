@@ -130,6 +130,7 @@ Today I learned
 - **Automatic Type coercion**
   - Basically happens when there is a operation between diffrent data types.
   - like number + string => string
+  - when array becomes string with + then it concatenate every element with .(dot)
 
 
 #### Javascript Array
