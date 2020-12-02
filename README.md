@@ -137,6 +137,7 @@ Today I learned
 ```javascript
 const friends = ['kim', 'ho', 'pu']
 const years = new Array(1991, 1984, 2008, 2020);
+const jonas = ['jonas', 10];
 ```
 - the rest of this is same with the other programming langues it
-- yet this has length property
+- yet this has length property and cna have any type of data
