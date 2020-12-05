@@ -107,6 +107,10 @@ Today I learned
 ## Node.js and npm libraries
 - **Node** liberate javascript language so it can be used on the backend. 
 - **NPM** is Node Package Manager install libraries and deal with dependencies
+  - When you make package.json file to manage your project related inforamation because of the depndency of packages. [For more detailed information](https://docs.npmjs.com/cli/v6/configuring-npm/package-json).
+  - The entry should be the main javascript file.
+  - -g means global 
+  
 - **express** library is bulit for HTTP communication.
   - you can send HTML FILE with this method sendFILE( __dirName + 'index.html')
   
