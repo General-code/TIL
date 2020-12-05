@@ -106,6 +106,7 @@ Today I learned
 
 ## Node.js and npm libraries
 - **Node** liberate javascript language so it can be used on the backend. 
+  - parseFloat is more safe than Number cause it only find number in string and return it.
 - **NPM** is Node Package Manager install libraries and deal with dependencies
   - When you make package.json file to manage your project related inforamation because of the depndency of packages. [For more detailed information](https://docs.npmjs.com/cli/v6/configuring-npm/package-json).
   - The entry should be the main javascript file.
@@ -113,5 +114,29 @@ Today I learned
   
 - **express** library is bulit for HTTP communication.
   - you can send HTML FILE with this method sendFILE( __dirName + 'index.html')
-  
-> to use library you should use this keyword require('package name') 
+  - through the use function can use the other packages.
+  - bodyParser parse the data from the http request.
+```javascript
+// jshint esversion:6
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const app = express();
+app.use(bodyParser.urlencoded({extended: true}));
+
+app.get('/', function (req, res) {
+  res.sendFile(__dirname + '/index.html');
+});
+
+app.post('/', function (req, res) {
+  let num1 = Number(req.body.num1);
+  let num2 = Number(req.body.num2);
+
+  let result = num1 + num2;
+  res.send('The result of the calculation is ' + result);
+});
+
+app.listen(3000, function () {
+  console.log('Server is running on port 3000.');
+});
+```
