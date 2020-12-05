@@ -40,7 +40,7 @@ skills : ['programming' , 'bungee jumping']
 - event that triggered this callback function  pass back through the call back function
 - call back function is not triggered by us but an object experienced specific event
 
-- **After the Event has happened, the event Object is constructed based on that event and then the call back function gets it as an argument.
+- **After the Event has happened, the event Object is constructed based on that event and then the call back function gets it as an argument.**
 - and the event listener check if the type of event is same with the event listener is wating for. 
 
 ```javascript
