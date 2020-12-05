@@ -161,3 +161,13 @@ skills : ['programming' , 'bungee jumping']
 
 
 #### [Javascript Array](https://github.com/General-code/TIL/blob/main/JavascriptArray.md)
+
+
+
+## Node.js and npm libraries
+- **Node** liberate javascript language so it can be used on the backend. 
+- **NPM** is Node Package Manager install libraries and deal with dependencies
+- **express** library is bulit for HTTP communication.
+  - you can send HTML FILE with this method sendFILE( __dirName + 'index.html')
+  
+> to use library you should use this keyword require('package name') 
