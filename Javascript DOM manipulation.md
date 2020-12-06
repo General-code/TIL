@@ -21,7 +21,8 @@
 - When it comes to get the text in **input tag** we should **use value property**
   
 ## Control the Event
-- addEventListener(type, function) throught this code you can add function to be called when listeners listen to the specific type behavior
+- Make your web to react to the ⭐event
+- addEventListener(type, function) through this code you can add function to be called when listeners listen to the specific type **behavior(Event)**
 - you can use debugger; in chrome developer tool
 - We can **pass the event that trigers eventListener as a parameter to the function associated with the event listener**
 - it's also possible for the entire web page to listen(wait for) to the event.(use document)
