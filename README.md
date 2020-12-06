@@ -70,7 +70,7 @@
 ### Javascript Variables Delcaration
 - **let** has block level scope
 - **var** has function level scope and can be redeclared. This should be completely avoided. It's scope level is so weird.
--  **const** means that **the identifier can’t be reassigned.** (Not to be confused with immutable values. Unlike true immutable datatypes such as those produced by Immutable.js and Mori, a `const` object can have properties mutated.) 
+- ⭐**const** means that **the identifier can’t be reassigned.** (Not to be confused with immutable values. Unlike true immutable datatypes such as those produced by Immutable.js and Mori, a `const` object can have properties mutated.) 
 - **should be initiallized with an declaration.**
 
 ```javascript
