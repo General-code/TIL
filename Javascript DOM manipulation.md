@@ -5,7 +5,7 @@
 ### Working with Classes
 - When manipulating DOM Elements you can use querySelector("") and add class to the selected element writing code like this **querySelector(".class").classList.add("invisible");**
   - **classList** returns class list of an selected Element and there are it's methods such as **toggle, add, remove** 
-  - You can gather all same elements using querySelectorAll then it will returns lists of the same elements. 
+  - You can gather all same elements using querySelectorAll then it will returns lists of the elements have a selector in common. 
 
 ```javascript
 'use strict';
