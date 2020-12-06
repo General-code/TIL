@@ -9,7 +9,7 @@
 - when you **change CSS sytle uisng (some element Selected by selector).style.color = "value";** all the property value in javascript should be wrapped with "" so it would be the string
 
 ## Manipulating Text
-- innerHTML vs textContent 
+- **innerHTML vs textContent** 
   - innerHTML returns the literally all the written things inside an selected element 
   - textContent returns only text of an selected element
   
@@ -18,6 +18,7 @@
   - you can see specific attribute using .getAttribute('attribute name');
   - change attribute .setAttribute('Attribute you are going to change', 'what you are going to change it to');
   
+- When it comes to get the text in **input tag** we should **use value property**
   
 ## Control the Event
 - addEventListener(type, function) throught this code you can add function to be called when listeners listen to the specific type behavior
