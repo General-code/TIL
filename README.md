@@ -102,6 +102,9 @@
 
 #### [Javascript Array](https://github.com/General-code/TIL/blob/main/JavascriptArray.md)
 
+### Animation 
+- To use Animation first add the effect and then use **setTimeout(function(){}, milisec)** to remove it then it will work like an animation
+
 
 
 ## Node.js and npm
