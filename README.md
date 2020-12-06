@@ -147,6 +147,6 @@ app.listen(3000, function () {
   - Allow external server to use it's program
 - Endpoint(the starting url of an API)
 - Path used to for specific server
-- Parameter used to narrow down the data.
+- Parameter used to narrow down on the data(to get specific data).
   - when used in url we can add like this ?varname='value'&varname2='value2'
 - Authentication
