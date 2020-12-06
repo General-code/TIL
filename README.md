@@ -140,3 +140,13 @@ app.listen(3000, function () {
   console.log('Server is running on port 3000.');
 });
 ```
+
+## API
+- what is an API and what is it composed of?
+- Application Programming Interface which is set of functions, data, objects and protocol.
+  - Allow external server to use it's program
+- Endpoint(the starting url of an API)
+- Path used to for specific server
+- Parameter used to narrow down the data.
+  - when used in url we can add like this ?varname='value'&varname2='value2'
+- Authentication
