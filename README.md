@@ -20,7 +20,7 @@
     title = request.args.get('title')
     return render_template('show.html',title=title)
   ```
-
+- When I was making a vanila javascript modal **I was stuck in removing class in the classList.** But after a minute I realized that I should pass only **pure text without any symbols indicating class**(cause this is classList we don't have to concern about it!)
 ## Javascript
 
 ### [Javascript DOM Manipulation](https://github.com/General-code/TIL/blob/main/Javascript%20DOM%20manipulation.md)
