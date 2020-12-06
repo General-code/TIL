@@ -13,12 +13,12 @@
   - innerHTML returns the literally all the written things inside an selected element 
   - textContent returns only text of an selected element
   
-- Manipulating attribute of an HTML element
-  - you can get array of attributes of an element using .attributes;
-  - you can see specific attribute using .getAttribute('attribute name');
-  - change attribute .setAttribute('Attribute you are going to change', 'what you are going to change it to');
+- **Manipulating attribute of an HTML element**
+  - you can get **array of attributes of an element using .attributes;**
+  - you can see **specific attribute using .getAttribute('attribute name');**
+  - change attribute **.setAttribute('Attribute you are going to change', 'what you are going to change it to');**
   
-- When it comes to get the text in **input tag** we should **use value property**
+- When it comes to manipulating text in **input tag** we should **use value property**
   
 ## Control the Event
 - Make your web to react to the ⭐event
