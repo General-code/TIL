@@ -104,7 +104,7 @@ Today I learned
 
 
 
-## Node.js and npm libraries
+## Node.js and npm
 - **Node** liberate javascript language so it can be used on the backend. 
   - parseFloat is more safe than Number cause it only find number in string and return it.
 - **NPM** is Node Package Manager install libraries and deal with dependencies
