@@ -1,3 +1,6 @@
+# DOM
+- **Document Object Model** which is rendered when the loading of html file is finished.
+- ✔DOM and DOM methods are not the part of the javascript(ecmascript). They are **just web API provided by web browser and can interact with javascript**
 ## Selecting Element
 - When manipulating DOM Elements you can use querySelector("") and add class to the selected element writing code like this querySelector(".class").classList.add("invisible");
   - classList returns class list of an selected Element and there are it's methods such as **toggle, add, remove** 
