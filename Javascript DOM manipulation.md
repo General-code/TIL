@@ -3,7 +3,24 @@
 - ✔**DOM and DOM methods are** not the part of the javascript(ecmascript). They are **just web API provided by web browser and can interact with javascript**
 ## Selecting Element
 ### Working with Classes
-- When manipulating DOM Elements you can use querySelector("") and add class to the selected element writing code like this querySelector(".class").classList.add("invisible");
+```javascript
+'use strict';
+
+const modal = document.querySelector('.modal');
+const overlay = document.querySelector('.overlay');
+const btnCloseModal = document.querySelector('.close-modal');
+const btnsOpenModal = document.querySelectorAll('.show-modal');
+
+for (let i = 0; i < btnsOpenModal.length; ++i) {
+  btnsOpenModal[i].addEventListener('click', () => {
+    modal.classList.remove('hidden');
+    overlay.classList.remove('hidden');
+    console.log(modal.classList);
+  });
+}
+
+```
+- When manipulating DOM Elements you can use querySelector("") and add class to the selected element writing code like this **querySelector(".class").classList.add("invisible");**
   - **classList** returns class list of an selected Element and there are it's methods such as **toggle, add, remove** 
   - You can gather all same elements using querySelectorAll then it will returns lists of the same elements. 
 - **Every CSS property are camel case in DOM methods**, So you should remove hyphen and change that property into the camel case.
