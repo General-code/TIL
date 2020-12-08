@@ -158,6 +158,6 @@ app.listen(3000, function () {
 ## Network 
 - What happens when we hit the name of the internet service on our browser's url box? 
 > then we asks question who is the {name} to the ISP(Internet Service Provider) and ISP requests the address of this name to the DNS(Domain name server)
-and then DNS send off that request(IP address) back through the ISP to the web browser or website.
+and then DNS send off that request(IP address) back through the ISP to the web browser or website and our browser send requsts for that IP and get the respond end up with several files(HTML CSS JAVASCRIPT and the ohter things)
 - Everything on the internet has it's own IP address (we're going to say about NAT later)
 **Through the IP Address we can find the destination**
