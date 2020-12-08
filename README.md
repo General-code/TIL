@@ -154,3 +154,9 @@ app.listen(3000, function () {
 - Parameter used to narrow down on the data(to get specific data).
   - when used in url we can add like this ?varname='value'&varname2='value2'
 - Authentication
+
+## Network 
+- What happens when we hit the name of the internet service on our browser's url box? 
+> then we asks question who is the {name} to the ISP(Internet Service Provider) and ISP requests the address of this name to the DNS(Domain name server)
+and then DNS send off that request(IP address) back through the ISP to the web browser or website.
+- everything on the internet has it's own IP address (we're going to say about NAT later)
