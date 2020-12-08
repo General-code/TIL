@@ -155,9 +155,11 @@ app.listen(3000, function () {
   - when used in url we can add like this ?varname='value'&varname2='value2'
 - Authentication
 
-## Network 
+## NETWORK 
 - What happens when we hit the name of the internet service on our browser's url box? 
 > then we asks question who is the {name} to the ISP(Internet Service Provider) and ISP requests the address of this name to the DNS(Domain name server)
 and then DNS send off that request(IP address) back through the ISP to the web browser or website and our browser send requsts for that IP and get the respond end up with several files(HTML CSS JAVASCRIPT and the ohter things)
 - Everything on the internet has it's own IP address (we're going to say about NAT later)
 **Through the IP Address we can find the destination**
+### INTERNET BACKBONE
+  - When we use the WIFI in our home wifi is available through the router and that is connected to the Modem(we get this when we sign up internet service) which is connected to the ISP, to say somehting about backbone. everything is connected with the cables. you can see the cables connects every country under water
