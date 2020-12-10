@@ -163,3 +163,8 @@ and then DNS send off that request(IP address) back through the ISP to the web b
 **Through the IP Address we can find the destination**
 ### INTERNET BACKBONE
   - When we use the WIFI in our home wifi is available through the router and that is connected to the Modem(we get this when we sign up internet service) which is connected to the ISP, to say somehting about backbone. everything is connected with the cables. you can see the cables connects every country under water
+
+- Use **tracert** to trace hole bunch of hops and the destination IP address.
+```shell
+tracert google.com
+```
