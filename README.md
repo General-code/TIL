@@ -104,7 +104,7 @@
 #### [Javascript Array](https://github.com/General-code/TIL/blob/main/JavascriptArray.md)
 
 ## Javascript Engine
-<img src="https://blog.kakaocdn.net/dn/bAGG5c/btqChFytmpg/qLtzgp3ahZgqkcIlD9mtkK/img.png" width='200px' height='300px'></img>
+<img src="https://blog.kakaocdn.net/dn/bAGG5c/btqChFytmpg/qLtzgp3ahZgqkcIlD9mtkK/img.png" width='200px' height='300px' style="background-position:center;"></img>
  - Any Javascript Engine always contains a call stack and a heap
   - ![javascript memory model](https://blog.kakaocdn.net/dn/bAGG5c/btqChFytmpg/qLtzgp3ahZgqkcIlD9mtkK/img.png)
   - **call stack is where our code is excuted** using something called **excution context** and **heap is an unstructured memory pool** which **stores all the objects** that aour application needs.
