@@ -103,14 +103,20 @@
 
 #### [Javascript Array](https://github.com/General-code/TIL/blob/main/JavascriptArray.md)
 
-## Javascript Engine
-<img src="https://blog.kakaocdn.net/dn/bAGG5c/btqChFytmpg/qLtzgp3ahZgqkcIlD9mtkK/img.png" width='300px' height='300px'></img>
- - Any Javascript Engine always contains a call stack and a heap
-  - ![javascript memory model](https://blog.kakaocdn.net/dn/bAGG5c/btqChFytmpg/qLtzgp3ahZgqkcIlD9mtkK/img.png)
-  - **call stack is where our code is excuted** using something called **excution context** and **heap is an unstructured memory pool** which **stores all the objects** that aour application needs.
- - There are two memory model. Our variable and data are stored in **call stack and heap stack** react to the peoples 
- - javascript was a compliation language not a interpretation language.
- - but now it's diffrent. Because Javascript support Just In Time compilation(why this is just in time compilation because it doesn't 
+### Javascript Engine
+- Any Javascript Engine always contains a call stack and a heap
+ - ![javascript memory model](https://blog.kakaocdn.net/dn/bAGG5c/btqChFytmpg/qLtzgp3ahZgqkcIlD9mtkK/img.png)
+ - **call stack is where our code is excuted** using something called **excution context** and **heap is an unstructured memory pool** which **stores all the objects** that aour application needs.
+ 
+#### Steps
+- javascript was a interpreted language, but this is not true anymore.
+- but now it's diffrent. Because Javascript support Just In Time compilation
+- JIT compiler convert source code to machine code and don't make any portable file, just immediately excute them.
+
+- first **javascript code is parsed into the data structrue called AST**(Abstract syntax tree)
+  - This works by first **splitting up eaxh line of code into pieces that are meaningful to the language** such as const or function keyword.
+  - each pieces of codes are saved into the tree in a structured way.
+  - This step also **cehcks if there are any syntax error**s and the **resulting tree will later be used to generate the machine code**
  
  
 
