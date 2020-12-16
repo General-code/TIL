@@ -104,7 +104,10 @@
 #### [Javascript Array](https://github.com/General-code/TIL/blob/main/JavascriptArray.md)
 
 ## Javascript Engine
- - There are two memory model. Our variable and data are stored in call stack and heap stack react to the peoples 
+ - Any Javascript Engine always contains a call stack and a heap
+  - ![javascript memory model](https://blog.kakaocdn.net/dn/bAGG5c/btqChFytmpg/qLtzgp3ahZgqkcIlD9mtkK/img.png)
+  - **call stack is where our code is excuted** using something called **excution context** and **heap is an unstructured memory pool** which **stores all the objects** that aour application needs.
+ - There are two memory model. Our variable and data are stored in **call stack and heap stack** react to the peoples 
  - javascript was a compliation language not a interpretation language.
  - but now it's diffrent. Because Javascript support Just In Time compilation(why this is just in time compilation because it doesn't 
  
