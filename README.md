@@ -103,6 +103,13 @@
 
 #### [Javascript Array](https://github.com/General-code/TIL/blob/main/JavascriptArray.md)
 
+## Javascript Engine
+ - There are two memory model. Our variable and data are stored in call stack and heap stack react to the peoples 
+ - javascript was a compliation language not a interpretation language.
+ - but now it's diffrent. Because Javascript support Just In Time compilation(why this is just in time compilation because it doesn't 
+ 
+ 
+
 ### Animation 
 - To use Animation first add the effect and then use **setTimeout(function(){}, milisec)** to remove it then it will work like an animation
 
