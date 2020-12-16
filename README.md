@@ -113,12 +113,12 @@
 - but now it's diffrent. Because Javascript support Just In Time compilation
 - JIT compiler convert source code to machine code and don't make any portable file, just immediately excute them.
 
-- first **javascript code is parsed into the data structrue called AST**(Abstract syntax tree)
+1 first **javascript code is parsed into the data structrue called AST**(Abstract syntax tree)
   - This works by first **splitting up eaxh line of code into pieces that are meaningful to the language** such as const or function keyword.
   - each pieces of codes are saved into the tree in a structured way.
   - This step also **cehcks if there are any syntax error**s and the **resulting tree will later be used to generate the machine code**
  
- - The AST is just representation of entire code into the engine.
+2 The AST is just representation of entire code into the engine.
   - the next step is compilation. This process takes the generated AST and compiles it into machine code.
   - This machine code just excuted right away because javascript engine uses JIT(Just in time) compilation.
   - Remeber **Execution happens in the javascript engines call stack**.
