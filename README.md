@@ -128,7 +128,17 @@
   -  create very unoptimized version of machine code in the beginning just so that it can start executing as fast as possible.
   -  Then in the background this code is being optimized and recompiled during the already running program execution.
   - and this can be done most of time and after each optimization the unoptimized code is simply swept for the new more optimized code without ever stopping execution of codes.
-  - All this parsing, compilation, Optimization happends in some speci
+  - ⭐All this parsing, compilation, Optimization happends in some special threads inside the engine that we can not access from our code.This is copmpleted diffrent from main thread
+  
+### Javscript Runtime 
+- made of JS ENGINE And WEB APIs(not the part of javascript), javscript access WEB APIs through the global window object. but web APIs also be a part of javascript runtime as javascript runtime contains all the javascript related things that we need.
+- **CALLBACK QUEUE** is also needed to javascript runtime. Callback queue is a datastructure that contians all the callback functions that are ready to be excuted.
+> FOR example we attach event handler functinos to DOM element like a button to react to certain event, And this event functions are also called callback functions. As the event happen, for example a click, the callback function will be called.
+- First when the callback function is called, the callback function is put into the callback queue, then when the call stack is empty the callback function is passed to the stack so that it can be executed. And this happens by something called event loop.
+![Figure of Runtime](https://cdn-images-1.medium.com/max/1600/1*lZ-KXoVNUSOwaq7q8zUBDg.png)
+
+- But in nodes Js things are different. cause node js in not a browser, It don't provide WEB APIs but C++ Bindings and thread pool
+
 ### Animation 
 - To use Animation first add the effect and then use **setTimeout(function(){}, milisec)** to remove it then it will work like an animation
 
