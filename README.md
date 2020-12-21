@@ -96,7 +96,7 @@
   - like number + string => string
   - when array becomes string with + then it concatenate every element with .(dot)
 
-- **Truthy value and Falsy value
+- **Truthy value and Falsy value**
   - Falsy values are undefined, 0, '', null, false
 
 
