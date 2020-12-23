@@ -37,9 +37,7 @@
 - After a compilation, Global execution context is created for the top-level code.
 - **top-level code** is a basically code is not inside the curly braces.
 - **Execution context** is an environment where javascript code is executed.(local variables and arguemnts)
-- In any javascript project no matter how it is large there is only one execution context(default context)
-- and then the top-level code(global environment code) is executed.
-- For each function call, a new execution context is created. and if there is callback function,the engine waits for callback function.
+- when the top-level code(global environment code) is executed. For each function call, a new execution context is created. and if there is callback function,the engine waits for callback function.
 
 
 - These are Generated during creation phase right before execution
