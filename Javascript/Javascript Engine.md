@@ -59,9 +59,9 @@
  > scoping asks the question 'where do variables live?' or 'where can we access a certain variable, and where not?;
  
 - **Scope types**
-  1. Global scope
-  2. Function Scope
-  3. Block scope(ES6)
+ 1. Global scope
+ 2. Function Scope
+ 3. Block scope(ES6)
     - only supported by let and const keyword.
     - var keyword(end up in the closest function scope) doesn't follow this rule.
     - (stricktly functions is also block scope)
