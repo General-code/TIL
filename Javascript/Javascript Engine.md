@@ -12,7 +12,7 @@
   - each pieces of codes are saved into the tree in a structured way.
   - This step also **cehcks if there are any syntax error**s and the **resulting tree will later be used to generate the machine code**
  
-2. The AST is just representation of entire code into the engine.
+2. The AST is just a representation of entire code into the engine.
   - the next step is compilation. This process takes the generated AST and compiles it into machine code.
   - This machine code just excuted right away because javascript engine uses JIT(Just in time) compilation.
   - Remeber **Execution happens in the javascript engines call stack**.
