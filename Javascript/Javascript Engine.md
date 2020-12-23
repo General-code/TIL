@@ -58,13 +58,13 @@
  ### Scope and Scope chain 
  > scoping asks the question 'where do variables live?' or 'where can we access a certain variable, and where not?;
  
- - **Scope types**
-  1. Global scope
-  2. Function Scope
-  3. Block scope(ES6)
-    - only supported by let and const keyword.
-    - var keyword(end up in the closest function scope) doesn't follow this rule.
-    - (stricktly functions is also block scope)
+- **Scope types**
+ 1. Global scope
+ 2. Function Scope
+ 3. Block scope(ES6)
+   - only supported by let and const keyword.
+   - var keyword(end up in the closest function scope) doesn't follow this rule.
+   - (stricktly functions is also block scope)
 
  - **Lexical scoping** : the rule of where we can access variables are based on exactly where in the code functions and blocks are written.
  - **Every scope have access to all ther variables from all its outer scope**. This is **Scope chain**
