@@ -32,4 +32,4 @@
 - First when the callback function is called, the callback function is put into the callback queue, then when the call stack is empty the callback function is passed to the stack so that it can be executed. And this happens by something called event loop.
 ![Figure of Runtime](https://cdn-images-1.medium.com/max/1600/1*lZ-KXoVNUSOwaq7q8zUBDg.png)
 
-- But in nodes Js things are different. cause node js in not a browser, It don't provide WEB APIs but C++ Bindings and thread pool
+- But in nodes Js things are different. cause node js in not a browser, It doesn't provide WEB APIs but C++ Bindings and thread pool
