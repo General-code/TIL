@@ -42,7 +42,7 @@
 
 - These are Generated during creation phase right before execution
 - inside Execution context 
- 1. ariable Environment.
+ 1. Variable Environment.
   - let,const and var declaration
   - functions
   - arguments object
