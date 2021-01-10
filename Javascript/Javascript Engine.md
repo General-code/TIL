@@ -25,7 +25,7 @@
    - ⭐All this parsing, compilation, Optimization happens in some special threads inside the engine that we can not access from our code.This is copmpleted diffrently from main thread
   
 ### Javscript Runtime 
-- made of JS ENGINE And WEB APIs(not the part of javascript), javscript access WEB APIs through the global window object. but web APIs also be a part of javascript runtime as javascript runtime contains all the javascript-related things that we need to run javascript code.
+- is comprised of JS ENGINE And WEB APIs(not the part of javascript), javscript access WEB APIs through the global window object. but web APIs also be a part of javascript runtime as javascript runtime contains all the javascript-related things that we need to run javascript code.
 - **CALLBACK QUEUE** is also needed for the javascript runtime. Callback queue is a data structure that contians all the callback functions that are ready to be excuted.
 > FOR example we attach event handler functinos to DOM element like a button to react to certain event, And this event functions are also called callback functions. As the event happen, for example a click, the callback function will be called.
 - First when the callback function is called, the callback function is put into the callback queue, then when the call stack is empty the callback function is passed to the stack so that it can be executed. And this happens by something called event loop.
