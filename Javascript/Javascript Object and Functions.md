@@ -24,7 +24,7 @@ skills : ['programming' , 'bungee jumping']
   
 - You have to make many of same type object? You want to pump them out like a factory?
   - use Constructor Function 
-> like this use UpeerCase at each first word not camel casing and you must use new keyword to give it a memory space 
+> like this use UpperCase at each first word not camel casing and you must use new keyword to give it a memory space 
 ```javascript
           function BellBoy(age, name, skills) {
             this.age = age;
