@@ -33,5 +33,5 @@ const jonas = ['jonas', 10];
   - useful to conditional statement.
 
 - **concat** method
- - get list as a parameter
- - return merged list but don't change the state of object which use this method.
+  - get list as a parameter
+  - return merged list but don't change the state of object which use this method.
