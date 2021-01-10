@@ -39,20 +39,18 @@
 - **Execution context** is an environment where javascript code is executed.(local variables and arguemnts)
 - when the top-level code(global environment code) is executed. For each function call, a new execution context is created. and if there is callback function,the engine waits for callback function.
 
-
-- These are Generated during creation phase right before execution
-- inside Execution context 
- 1. Variable Environment.
-  - let,const and var declaration
-  - functions
-  - arguments object
++ These are Generated during creation phase right before execution inside Execution context 
+  1. Variable Environment.
+    - let,const and var declaration
+    - functions
+    - arguments object
   
- 2. Scope chain
-  - reference to variables located outside of function
+  2. Scope chain
+    - reference to variables located outside of a function
   
- 3. this keyword
+  3. this keyword
  
- > ⭐⭐**however an arrow function doesn't have any own arguments or this keyowrd**
+   > ⭐⭐**however an arrow function doesn't have any own arguments or this keyowrd**
  
  
  ### Scope and Scope chain 
