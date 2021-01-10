@@ -22,7 +22,7 @@
    -  create very unoptimized version of machine code in the beginning just so that it can start executing as fast as possible.
    -  Then in the background this code is being optimized and recompiled during the already running program execution.
    - and this can be done most of time and after each optimization the unoptimized code is simply swept for the new more optimized code without ever stopping execution of codes.
-   - ⭐All this parsing, compilation, Optimization happens in some special threads inside the engine that we can not access from our code.This is copmpleted diffrently from main thread
+   - ⭐All this parsing, compilation, Optimization happens in some special threads inside the engine that we can not access from our code.This is copmpleted diffrently from   the main thread
   
 ### Javscript Runtime 
 - is comprised of JS ENGINE And WEB APIs(not the part of javascript), javscript access WEB APIs through the global window object. but web APIs also be a part of javascript runtime as javascript runtime contains all the javascript-related things that we need to run javascript code.
