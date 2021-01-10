@@ -14,7 +14,7 @@ const jonas = ['jonas', 10];
 - **unshift** method
   - Add element to the beginning of the array by passing argument in it.
 - **pop** method
-  - remove the last element so we don't need to pass any argument.
+  - remove a last element so we don't need to pass any argument.
   - returns the removed data
 - **shift** method
   - remove a value from the beginning of the array
