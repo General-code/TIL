@@ -1,5 +1,46 @@
 ### Javascript Object and Functions
 
+
+### Function delcaration
+- **Function declaration** allows to use the function before the declaration because of hoisting
+```javascript
+   cal(3,5);
+   function cal(a, b) {
+    return a - b;
+    }
+```
+- **Function expression** doesn't allow to use the function before the initialization. (This is also hoisted but I will talke the principle of hoisting and TDM later)
+  - **In javascript function is actually just a value** so it's possible to assign it into a variable.
+```javascript
+   const cal2 = function (a,b){
+    return a - b;
+   }
+```
+- **Arrow function** is a short and special form of a function expression
+  - added from the ES6
+  - don't need curly braces so simple
+  - implicit return statement
+  - if you write multiple-line function and needs more than one parameter it would be super complex
+  - and this is different from the normal function. 
+  
+```javascript
+   const calcAge3 = birthYear => 2037 - birthYear;
+   console.log(birthYear);
+   
+   // when to write down multi-line we need curly brace again
+   // we should express return statement.
+   
+   const yearsUntilRetirement = (currentYear ,birthYear) => {
+    const age = currentYear - birthYear;
+    const retirement = 65 - age;
+    if (retirement > 0)
+      return retirement;
+    else return -1;
+    }
+```
+
+
+
 #### Javascript Object
 - we can gather the related vairables giving them names.
 ```javascript
