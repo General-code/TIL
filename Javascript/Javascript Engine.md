@@ -1,7 +1,7 @@
 ### Javascript Engine
 - Any Javascript Engine always contains a call stack and a heap
 ![javascript memory model](https://blog.kakaocdn.net/dn/bAGG5c/btqChFytmpg/qLtzgp3ahZgqkcIlD9mtkK/img.png)
- - **call stack is where our code is excuted** using something called **excution context**(get stacked in the call stack) and **heap is an unstructured memory pool** which **stores all the objects** that aour application needs.
+ - **call stack is where our code is excuted** using something called **excution context**(get stacked in the call stack) and **heap is an unstructured memory pool** which **stores all the objects** that our application needs.
  
 #### Steps
 - javascript was a interpreted language, but this is not true anymore. Because Javascript support **Just In Time compilation**
