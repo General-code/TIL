@@ -35,3 +35,18 @@ const jonas = ['jonas', 10];
 - **concat** method
   - get list as a parameter
   - return merged list but don't change the state of object which use this method.
+  
+- **splice** method
+  - remove data including start position and excluding end position.
+```javascript
+   array.splice(0,1) // same with array.shift()
+```
+
+- **sort** method
+  - make array sorted.
+  - don't have to assign code itself. 
+  
+  
+- **reverse** moethod
+  - reverse array order. 
+  - don't have to assign code itself.
