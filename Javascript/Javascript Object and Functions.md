@@ -1,4 +1,4 @@
-## TIL[https://github.com/General-code/TIL]
+## TIL(https://github.com/General-code/TIL)
 ### Javascript Object and Functions
 
 ### Function delcaration
