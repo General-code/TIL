@@ -1,5 +1,5 @@
+## TIL[https://github.com/General-code/TIL]
 ### Javascript Object and Functions
-
 
 ### Function delcaration
 - **Function declaration** allows to use the function before the declaration because of hoisting
