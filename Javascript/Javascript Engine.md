@@ -16,7 +16,7 @@
   - the next step is compilation. This process takes the generated AST and compiles it into machine code.
   - This machine code just excuted right away because javascript engine uses JIT(Just in time) compilation.
   - Remeber **Execution happens in the javascript engines call stack**.
-  - for more deep informaation visit this site(https://medium.com/@zoebai_70369/javascript-engine-368037453a1c)
+  - for more deep information visit this site(https://medium.com/@zoebai_70369/javascript-engine-368037453a1c)
   
 3. Javscript Optimization strategies
   -  create very unoptimized version of machine code in the beginning just so that it can start executing as fast as possible.
