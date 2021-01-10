@@ -7,7 +7,7 @@ const years = new Array(1991, 1984, 2008, 2020);
 const jonas = ['jonas', 10];
 ```
 - the rest of this is same with the other programming langues it
-- yet this has length property and cna have any type of data
+- yet this has length property and can have any type of data
 
 - **Push** method
   - Add element to the end of the array and returns the length of the array
