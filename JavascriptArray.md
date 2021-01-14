@@ -50,3 +50,19 @@ const jonas = ['jonas', 10];
 - **reverse** moethod
   - reverse array order. 
   - don't have to assign code itself.
+
+
+- **forEach** method 
+  - make code more succint and unifed
+```javascript
+function logTodos(todo, i) {
+  console.log(todo, i);
+}
+todos.forEach(logTodos);
+clean room 0
+brush teeth 1
+exercise 2
+study javascript 3
+eat healthy! 4
+```
+> !When you pass just one argument to a function. It will pass the value in the object.
