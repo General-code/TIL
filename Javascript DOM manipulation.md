@@ -51,3 +51,9 @@ for (let i = 0; i < btnsOpenModal.length; ++i) {
       });
 ```
 
+### Accessing parentElement and children
+Element.parentElement
+Element.children
+
+It is important to CACHE selectors in variables.
+- doesn't have to look up the DOM 
