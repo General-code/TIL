@@ -27,6 +27,14 @@ for (let i = 0; i < btnsOpenModal.length; ++i) {
 - **Every CSS property are camel case in DOM methods**, So you should remove hyphen and change that property into the camel case.
 - when you **change CSS sytle uisng (some element Selected by selector).style.color = "value";** all the property value in javascript should be wrapped with "" so it would be the string
 
+### Changing Styles
+- **style.{property} //ok**
+- **getAttribute**
+- **setAttribute**
+
+
+
+
 ## Manipulating Text
 - **😱😱innerHTML(Dangerous) vs textContent** 
   - innerHTML returns the literally all the written things inside an selected element 
