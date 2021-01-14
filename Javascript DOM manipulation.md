@@ -28,7 +28,7 @@ for (let i = 0; i < btnsOpenModal.length; ++i) {
 - when you **change CSS sytle uisng (some element Selected by selector).style.color = "value";** all the property value in javascript should be wrapped with "" so it would be the string
 
 ## Manipulating Text
-- **innerHTML vs textContent** 
+- **😱😱innerHTML(Dangerous) vs textContent** 
   - innerHTML returns the literally all the written things inside an selected element 
   - textContent returns only text of an selected element
   
