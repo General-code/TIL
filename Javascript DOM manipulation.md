@@ -68,7 +68,6 @@ Element.parentElement
 Element.children
 
 ## removing Element 
-- remove vs removeChild
-- removeChild needs a parent Element and the target of elimination.
-It is important to CACHE selectors in variables.
-- doesn't have to look up the DOM 
+- **remove vs removeChild **method
+- **removeChild needs a parent Element** and the target of elimination.
+- **remove** method can remove itself and when this gets an arguemnt it regard it as an child element
