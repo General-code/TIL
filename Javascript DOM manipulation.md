@@ -61,8 +61,14 @@ for (let i = 0; i < btnsOpenModal.length; ++i) {
 ```
 
 ### Accessing parentElement and children
+- parentElement and parentNode do the same thing but return different things when they don't have a parent element(Node)
+- former return null and latter return document.
+
 Element.parentElement
 Element.children
 
+## removing Element 
+- remove vs removeChild
+- removeChild needs a parent Element and the target of elimination.
 It is important to CACHE selectors in variables.
 - doesn't have to look up the DOM 
