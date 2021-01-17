@@ -68,6 +68,6 @@ Element.parentElement
 Element.children
 
 ## removing Element 
-- **remove vs removeChild **method
+- **remove vs removeChild** method
 - **removeChild needs a parent Element** and the target of elimination.
 - **remove** method can remove itself and when this gets an arguemnt it regard it as an child element
