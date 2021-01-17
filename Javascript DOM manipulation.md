@@ -40,7 +40,7 @@ for (let i = 0; i < btnsOpenModal.length; ++i) {
 - **😱😱innerHTML(Dangerous) vs textContent** 
   - innerHTML returns the literally all the written things inside an selected element 
   - textContent returns only text of an selected element
-  
+  - 🔥**Warning!!** **input** elements use a **value property** to access it's text input data!!! 
 - **Manipulating attribute of an HTML element**
   - you can get **array of attributes of an element using .attributes;**
   - you can see **specific attribute using .getAttribute('attribute name');**
