@@ -59,6 +59,12 @@ for (let i = 0; i < btnsOpenModal.length; ++i) {
         console.log(event);
       });
 ```
+- We can get a target of an event like this
+'''javascript
+   document.addEventListener('click', function(evt){
+    console.log(evt.target);
+    });
+'''
 
 ### Accessing parentElement and children
 - parentElement and parentNode do the same thing but return different things when they don't have a parent element(Node)
@@ -70,4 +76,4 @@ Element.children
 ## removing Element 
 - **remove vs removeChild** method
 - **removeChild needs a parent Element** and the target of elimination.
-- **remove** method can remove itself and when this gets an arguemnt it regard it as an child element
+- **remove** method remove itself
