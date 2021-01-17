@@ -76,4 +76,5 @@ Element.children
 ## removing Element 
 - **remove vs removeChild** method
 - **removeChild needs a parent Element** and the target of elimination.
+  - return the reference to the object taken away from the document object model
 - **remove** method remove itself
